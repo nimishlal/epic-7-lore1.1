@@ -21,12 +21,13 @@ export class FaqComponent implements OnInit {
   //   this.values += value + ' | ';
 
   // }
-  switch() {
+  switch(v) {
     // if (this.flip) {
     //   this.flip = false;
     // } else {
     //   this.flip = true;
     // }
     this.flip = this.flip ? !this.flip : !this.flip;
+    v.innerText = this.flip ? 'Off' : 'On';
   }
 }

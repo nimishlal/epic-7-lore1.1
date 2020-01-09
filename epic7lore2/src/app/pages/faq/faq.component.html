@@ -5,7 +5,7 @@
 <!-- <p>{{values}}</p> -->
 
 
-<button (click)="switch()" type="button" class="btn btn-dark">off</button>
+<button #chicken (click)="switch(chicken)" type="button" class="btn btn-dark">off</button>
 
 <div *ngIf = "flip">
     <p>I am Visible</p>
